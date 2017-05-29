@@ -2355,7 +2355,6 @@
 		#header h1 {
 			padding: 0 0 2.75em 0;
 			margin: 0;
-			/*Added*/ font-family: 'Romanesco';
 
 		}
 
@@ -2363,6 +2362,7 @@
 				font-size: 3em; /*supposed to be 1.5*/
 				letter-spacing: -0.025em;
 				border: 0;
+			/*Added*/ font-family: 'Romanesco';
 			}
 
 	#nav {
@@ -2890,6 +2890,17 @@
 					#titleBar .title em {
 						font-style: normal;
 						font-weight: 300;
+					}
+					
+				/* The below is new!!*/	
+					#titleBar .title a {
+						color: inherit;
+						text-decoration: none;
+						border-bottom: none;
+					}
+					
+					#titleBar .title a:hover {
+					color: #37c0fb;
 					}
 
 				#titleBar .toggle {

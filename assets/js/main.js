@@ -47,11 +47,11 @@
 
 		// Off-Canvas Navigation.
 
-			// Title Bar.
+			// Title Bar. Added the a href language so it's a link. -SL
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
-						'<span class="title">' + $('#logo').html() + '</span>' +
+						'<span class="title"> <a href="index.html">' + $('#logo').html() + '</a></span>' +
 					'</div>'
 				)
 					.appendTo($body);
