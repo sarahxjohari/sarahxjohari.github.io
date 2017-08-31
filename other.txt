@@ -25,14 +25,14 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="index.html">Home</a></li>
 								<li><a href="about.html">About</a></li>
 								<li><a href="location.html">Location</a></li>
-								<li><a href="guests.html">Out-of-Town Guests</a>
+								<li class="current"><a href="guests.html">Out-of-Town Guests</a>
 									<ul>
 										<li><a href="guests.html">Events</a></li>
-										<li><a href="guests.html">Hotels</a></li>
-										<li><a href="guests.html">Other Details</a></li>
+										<li><a href="hotels.html">Hotels</a></li>
+										<li><a href="other.html">Other Details</a></li>
 									</ul>
 								<li><a href="moreinfo.html">More Information</a></li>
 							</ul>
@@ -49,24 +49,22 @@
 							<!-- Content -->
 
 								<article>
+									<header>
+										<h2>For Guests Coming from Out of Town</h2>
+									</header>
+									<span class="image left"><img src="images/may.JPG" alt="" /></span>
 
-									<span class="image featured" style="margin-bottom:0"><img src="images/GettingMarried.jpg" style="max-height:100vh;max-width:100%;width:auto;margin:auto" alt="" /></span>
+									<p>We are so thankful for our family and friends coming from far away to celebrate with us. We'd like to welcome you to a few additional events while you're in town, and there will be information in this space soon.</p>
+									<h3>Events</h3>
+									<p>Hello early website readers! Check back later for more details.<p>
+									<h3>Hotels</h3>
+									<p>Same here; more to come.</p>
+									<h3>Other Details</h3>
+									<p>You guessed it! This will be filled in later, and will be its own fancy page!</a>
 								</article>
 						</div>
 					</div>
 				</section>
-				<section class="wrapper style2">
-					<div class="container">
-						<header class="major">
-							<h2>Welcome to our wedding website!</h2>
-							<p>This website will be updated with many more details, so check back again later, too</p>
-						</header>
-					</div>
-				</section>
-				<section class="wrapper style1" style="padding:0.5em">
-
-					</section>
-
 			<!-- Footer -->
 				<div id="footer">
 					<div class="container">
